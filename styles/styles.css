@@ -24,9 +24,8 @@ body{
     height: 70px;
     display: flex;
     align-items: center;
-    gap: 70px;
     padding: 10px;
-    margin: 40px 0;
+    margin: 20px 0;
 }
 .agregar-tarea input {
     width: 100%;
@@ -53,7 +52,7 @@ body{
 
  .boton-mas {
     position: relative;
-    left: -55px;
+    left: 10px;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -71,9 +70,6 @@ body{
     font-weight: normal;
     padding-left: 5px;
   }
-.container h1{
-    margin-left: 20px;
-}
 
 .tareas li{
     display: flex;
@@ -97,9 +93,8 @@ body{
 @media screen and (max-width: 768px){
     .container{
         max-width: 80%;
-        padding-top: 2rem;
+        padding-top: 5rem;
         margin-left: 2rem; 
-        margin-right: 2rem;
     }
 }
 @media screen and (min-width: 769px){
@@ -108,5 +103,6 @@ body{
         width: 600px;
         height:600px;
         margin:0 auto;
+        padding-top: 2rem;
     }
 }
