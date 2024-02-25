@@ -13,7 +13,12 @@
 }
 
 body{
-    background: linear-gradient(to bottom, var(--colorcito), var(--colorcito2));
+    background-color: var(--colorcito3);
+    background-image: url(./fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     height: 100vh;
     font-family: "Roboto Slab" ,sans-serif;
 }
